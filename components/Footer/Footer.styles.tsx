@@ -13,4 +13,9 @@ export const StyledFooter = Styled.footer`
         align-items: center;
         justify-content: space-between;
     }
+
+    @media (max-width: 320px) {
+        margin-top: 48px;
+        position: static;
+    }
 `
