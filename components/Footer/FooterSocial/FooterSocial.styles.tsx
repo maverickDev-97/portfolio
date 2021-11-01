@@ -8,10 +8,10 @@ export const StyledFooterSocial = Styled.a<IAppTheme>`
 
     @media (max-width: 480px) {
         box-sizing: border-box;
-        padding: 6px 6px 4px;
+        padding: 8px 8px 4px;
         border-radius: 4px;
         border: 1px solid ${props => props.isLight ? '#a6aec7' : '#4d556a'};
-        font-size: 14px;
+        font-size: 13px;
         margin-right: 12px;
       }
 `
