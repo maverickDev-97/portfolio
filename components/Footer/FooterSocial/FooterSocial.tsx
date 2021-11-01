@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import Link from 'next/link'
 import { FaLinkedinIn, FaTelegramPlane } from 'react-icons/fa'
 import { StyledFooterSocial } from './FooterSocial.styles';
 import { useAppTheme } from '../../../hooks/useAppTheme';

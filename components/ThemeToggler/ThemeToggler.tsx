@@ -1,7 +1,6 @@
-import { useContext } from 'react';
 import { useAppTheme } from '../../hooks/useAppTheme';
-import { ThemeContext } from '../../store/ThemeProvider';
 import { StyledThemeToggler } from './ThemeToggler.styles';
+import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs'
 
 const ThemeToggler = () => {
 
@@ -9,7 +8,8 @@ const ThemeToggler = () => {
 
     return (
         <StyledThemeToggler onClick={setMode} isLight={isLight}>
-            {isLight ? '🌙' : '☀️'}
+            {/* {isLight ? '🌙' : '☀️'} */}
+            {isLight ? <BsFillMoonFill /> : <BsFillSunFill />}
         </StyledThemeToggler>
     )
 }
