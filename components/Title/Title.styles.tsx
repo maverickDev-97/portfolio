@@ -1,19 +1,22 @@
 import Styled from 'styled-components';
 
 export const StyledTitle = Styled.h1`
+    position: relative;
     margin: 0 0 1.5rem;
     font-size: 40px;
     opacity: 0;
 
     animation-name: title-fading;
-    animation-duration: 750ms;
+    animation-duration: 1000ms;
     animation-fill-mode: forwards;
 
     @keyframes title-fading {
         0% {
+            left: -150px;
             opacity: 0;
         }
         100% {
+            left: 0;
             opacity: 1;
         }
     }
@@ -37,7 +40,7 @@ export const StyledTitle = Styled.h1`
       }
       
       @media (max-width: 320px) {
-        
+
       }
 
 `
