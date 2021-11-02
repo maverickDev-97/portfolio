@@ -10,5 +10,6 @@ export const StyledThemeToggler = Styled.div<IAppTheme>`
     cursor: pointer;
     box-sizing: border-box;
     border-radius: 5px;
+    font-size: 18px;
     background-color: ${props => props.isLight ? '#e7e7f0' : '#1d284b'}
 `

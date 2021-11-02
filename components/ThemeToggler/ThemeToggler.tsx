@@ -1,6 +1,7 @@
 import { useAppTheme } from '../../hooks/useAppTheme';
 import { StyledThemeToggler } from './ThemeToggler.styles';
-import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs'
+import { ImContrast } from 'react-icons/im';
+import { FiSun, FiMoon } from 'react-icons/fi'
 
 const ThemeToggler = () => {
 
@@ -9,7 +10,8 @@ const ThemeToggler = () => {
     return (
         <StyledThemeToggler onClick={setMode} isLight={isLight}>
             {/* {isLight ? '🌙' : '☀️'} */}
-            {isLight ? <BsFillMoonFill /> : <BsFillSunFill />}
+            {/* {isLight ? <FiMoon /> : <FiSun />} */}
+            <ImContrast />
         </StyledThemeToggler>
     )
 }
