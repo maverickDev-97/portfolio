@@ -37,7 +37,7 @@ export const StyledTitle = Styled.h1`
       }
       
       @media (max-width: 320px) {
-        font-size: 20px;
+        
       }
 
 `

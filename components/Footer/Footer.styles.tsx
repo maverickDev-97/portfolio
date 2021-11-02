@@ -15,7 +15,7 @@ export const StyledFooter = Styled.footer`
     }
 
     @media (max-width: 320px) {
-        padding: 40px 0;
+        padding: 40px 0 50px;
         position: static;
     }
 `
