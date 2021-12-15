@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <div className='container'>
         <Title text="I'm Dmytro Pryshliak." />
-        <HomeLink text='React Developer @ Luxoft.' url='/dev'/>
+        <HomeLink text='Front End Developer @ Luxoft.' url='/dev'/>
         <HomeLink text='With passion for UX.' url='/des'/>
       </div>
     </div>
