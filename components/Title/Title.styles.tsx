@@ -5,7 +5,6 @@ export const StyledTitle = Styled.h1`
     margin: 0 0 1.5rem;
     font-size: 40px;
     opacity: 0;
-
     animation-name: title-fading;
     animation-duration: 1000ms;
     animation-fill-mode: forwards;
