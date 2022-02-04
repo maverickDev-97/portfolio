@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { StyledHomePage, StyledHomePageContent } from './index.styles'
+import { StyledHomePage, StyledHomePageContent } from '../styles/index.styles'
 import HomeLink from '../components/HomeLink/HomeLink'
 import Title from '../components/Title/Title'
 
