@@ -1,6 +1,7 @@
 import Styled from 'styled-components';
 
 export const StyledParagraph = Styled.p`
+    margin-bottom: 16px;
     font-size: 20px;
     opacity: 0;
 
@@ -16,5 +17,4 @@ export const StyledParagraph = Styled.p`
             opacity: 1;
         }
     }
-
 `

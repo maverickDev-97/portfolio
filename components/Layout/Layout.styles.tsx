@@ -7,3 +7,7 @@ export const StyledLayout = Styled.div<IAppTheme>`
     color: ${props => props.isLight ? '#0b132b' : '#fff'};
     transition: all .25s ease-in;
 `
+
+export const StyledLayoutMainContent = Styled.main`
+    padding-bottom: 144px;
+`
