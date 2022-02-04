@@ -7,7 +7,6 @@ export const StyledHomeLink = Styled.a<IAppTheme>`
     margin: 12px 0;
     padding: 0;
     display: flex;
-    max-width: fit-content;
     align-items: center;
     font-size: 32px;
     letter-spacing: -0.02em;
