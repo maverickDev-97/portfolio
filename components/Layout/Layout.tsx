@@ -2,7 +2,7 @@ import { FC, ReactElement, useContext } from 'react'
 import { ThemeContext } from '../../store/ThemeProvider';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import { StyledLayout } from './Layout.styles';
+import { StyledLayout, StyledLayoutMainContent } from './Layout.styles';
 import { useAppTheme } from '../../hooks/useAppTheme';
 
 export interface LayoutProps {
@@ -18,11 +18,11 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     return (
         <StyledLayout isLight={isLight}>
             <Header />
-            <main>
+            <StyledLayoutMainContent>
                 <div className='container'>
                     {children}
                 </div>
-            </main>
+            </StyledLayoutMainContent>
             <Footer />
         </StyledLayout>
     )
