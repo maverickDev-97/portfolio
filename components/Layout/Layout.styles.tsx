@@ -9,5 +9,5 @@ export const StyledLayout = Styled.div<IAppTheme>`
 `
 
 export const StyledLayoutMainContent = Styled.main`
-    padding-bottom: 144px;
+    
 `

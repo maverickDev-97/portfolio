@@ -9,6 +9,7 @@ export const StyledFooter = Styled.footer`
     z-index: 3;
     font-size: 20px;
     background-color: inherit;
+    opacity: 0.9;
     & .wrapper {
         display: flex;
         align-items: center;
