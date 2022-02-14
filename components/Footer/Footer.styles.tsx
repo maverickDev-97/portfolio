@@ -16,7 +16,7 @@ export const StyledFooter = Styled.footer`
         justify-content: space-between;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 480px) {
         padding: 40px 0 50px;
         position: static;
     }
