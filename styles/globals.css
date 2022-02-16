@@ -5,6 +5,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'DM Sans', sans-serif;
+  height: -webkit-fill-available;
+  overflow: hidden;
 }
 
 
@@ -12,6 +14,11 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+#__next {
+  height: 100%;
+  overflow: auto;
 }
 
 main {

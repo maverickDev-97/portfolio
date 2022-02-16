@@ -8,12 +8,12 @@ const Home: NextPage = () => {
   return (
     <StyledHomePage>
       <Head>
-        <title>Dmytro Pryshliak</title>
+        <title>Dmytro Pryshliak - Frontend Developer @ Luxoft</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <StyledHomePageContent>
         <Title text="I'm Dmytro Pryshliak." />
-        <HomeLink text='Front End Developer @ Luxoft.' url='/dev' />
+        <HomeLink text='Frontend Developer @ Luxoft.' url='/dev' />
       </StyledHomePageContent>
     </StyledHomePage>
   )
