@@ -1,10 +1,15 @@
-import type { NextPage } from 'next'
+import Head from 'next/head';
+import type { NextPage } from 'next';
 import Paragraph from '../components/Paragraph/Paragraph';
 import SubParagraph from '../components/SubParagraph/SubParagraph';
 
 const DevPage: NextPage = () => {
     return (
         <>
+            <Head>
+                <title>Dmytro Pryshliak - Frontend Developer @ Luxoft</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Paragraph
                 text="I have been working in web development for the last 4 years." />
             <Paragraph
